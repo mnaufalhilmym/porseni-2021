@@ -9,8 +9,9 @@ function App() {
   useEffect(() => {
     const onScroll = (event) => {
       bg1Ref.current.style.width = window.innerWidth*(8/10) + window.pageYOffset + "px"
+      bg2Ref.current.style.height = window.innerHeight + window.pageYOffset + "px"
     };
-      
+    
     window.addEventListener('scroll', onScroll);
     
   }, []);
@@ -22,7 +23,7 @@ function App() {
   return (
     <div>
       <div className = 'z-10 right-0 fixed' ref = {bg1Ref} style = {{height: "100vh", width: "80vw", backgroundImage: 'url("images/Group bg 1.svg")', backgroundRepeat: "no-repeat", backgroundSize: "auto"}}></div>
-      {/* <div className = 'z-20 right-0 fixed' ref = {bg2Ref} style = {{height: "100vh", width: "80vw", backgroundImage: 'url("images/Group bg 2.svg")', backgroundRepeat: "no-repeat", backgroundSize: "auto"}}></div> */}
+      <div className = 'z-15 right-0 absolute' ref = {bg2Ref} style = {{height: "100vh", width: "100vw", backgroundImage: 'url("images/Group bg 2.svg")', backgroundRepeat: "no-repeat", backgroundSize: "auto"}}></div>
       <img className = 'z-0 absolute' src = { ("images/kolase foto.svg") } alt = 'Kolase Foto Dokumentasi Porsenigama' />            
       <Section1 onClick = {onClick} />
       <Section2 />
