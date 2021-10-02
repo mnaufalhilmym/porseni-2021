@@ -13,9 +13,6 @@ module.exports = {
         nuku: ['Nuku Nuku', 'sans-serif'],
         sansPro: ['Source Sans Pro', 'sans-serif'],
       },
-      zIndex: {
-        '-10': '-10',
-      },
       colors: {
         'biru' : '#1E234C',
         'krem' : '#FBE5D2',
