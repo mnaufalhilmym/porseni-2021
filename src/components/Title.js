@@ -1,6 +1,6 @@
 const Title = (props) => {
     return (
-        <div className = 'z-20 w-5/12 h-full items-center mt-56 mr-20 relative' >
+        <div className = 'z-30 w-5/12 h-full items-center mt-56 mr-20 relative' >
             <div className = 'flex items-stretch justify-end content-end'>
                 <img src = { ("images/joined-title.svg") } alt="" />
             </div>

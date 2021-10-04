@@ -1,7 +1,8 @@
 
 const Timeline = () => {
     return (
-        <div className = 'text-xl'>
+        <div className = 'z-40 text-4xl font-nuku flex justify-center'>
+            TIMELINE
         </div>
     )
 }

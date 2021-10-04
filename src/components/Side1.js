@@ -1,6 +1,6 @@
 const Side1 = () => {
     return (
-        <div className = 'z-20 flex flex-col w-1/12 pl-10'>
+        <div className = 'z-30 flex flex-col w-1/12 pl-10'>
             <img className = 'pt-10 pb-3 w-10' src = { ("images/bunder merah.svg") } alt = 'Tulisan 2021' />
             <img className = 'pb-8 w-10' src = { ("images/bunder krem.svg") } />
             {/* <div className = 'h-24'></div> */}
