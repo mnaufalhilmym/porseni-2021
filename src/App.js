@@ -6,32 +6,15 @@ function App() {
   const bg1Ref = useRef();
   const gapuraRef = useRef();
 
-  const useViewport = () => {
-    const [width, setWidth] = useState(window.innerWidth);
-    const [height, setHeight] = useState(window.innerHeight);
-  
-    useEffect(() => {
-      const handleWindowResize = () => {
-        setWidth(window.innerWidth);
-        setHeight(window.innerHeight);
-      }
-      window.addEventListener("resize", handleWindowResize);
-      return () => window.removeEventListener("resize", handleWindowResize);
-    }, []);
-  
-    // Use for responsive conditional  
-    return { width, height };
-  }
-  
-  const useBgAnim = ({ width, height }) => {
+  // const useBgAnim = ({ width, height }) => {
     useEffect(() => {
       const onScrollAnim = (event) => {
-        if (width > 641) {
-          bg1Ref.current.style.width = width*(8/10) + window.pageYOffset + "px";
-          gapuraRef.current.style.width = width*(4/10) + window.pageYOffset*(3/2) + "px";
+        if (window.innerWidth > 641) {
+          bg1Ref.current.style.width = window.innerWidth*(8/10) + window.pageYOffset + "px";
+          gapuraRef.current.style.width = window.innerWidth*(4/10) + window.pageYOffset*(3/2) + "px";
         } else {
-          bg1Ref.current.style.width = width*(3) + "px";
-          gapuraRef.current.style.width = width*(2/10) + window.pageYOffset*(1/2) + "px";
+          bg1Ref.current.style.width = window.innerWidth*(3) + "px";
+          gapuraRef.current.style.width = window.innerWidth*(2/10) + window.pageYOffset*(1/2) + "px";
         }
       };
       
@@ -39,8 +22,8 @@ function App() {
       return () => window.removeEventListener('scroll', onScrollAnim);
 
     }, []);
-  }
-  useBgAnim(useViewport());
+  // }
+  // useBgAnim(useViewport());
 
   const onClick = () => {
     document.getElementById('Section2').scrollIntoView({behavior: 'smooth'})
