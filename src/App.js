@@ -31,8 +31,8 @@ function App() {
 
   return (
     <div>
-      <div className = 'z-10 right-0 fixed' ref = {bg1Ref} style = {{height: "100vh", width: "80vw", backgroundImage: 'url("images/sec-1-2-bg-transisi.svg")', backgroundRepeat: "no-repeat", backgroundSize: "auto"}}></div>
-      <div className = 'z-15 right-0 fixed' ref = {gapuraRef} style = {{height: "100vh", width: "40vw", backgroundImage: 'url("images/gapura-sec1-2.svg")', backgroundRepeat: "no-repeat", backgroundSize: "auto"}}></div>
+      <div className = 'z-10 right-0 fixed h-full' ref = {bg1Ref} style = {{backgroundImage: 'url("images/sec-1-2-bg-transisi.svg")', backgroundRepeat: "no-repeat", backgroundSize: "auto"}}></div>
+      <div className = 'z-15 right-0 fixed h-full sm:h-1/2' ref = {gapuraRef} style = {{backgroundImage: 'url("images/gapura-sec1-2.svg")', backgroundRepeat: "no-repeat", backgroundSize: "auto"}}></div>
       {/* <div className = 'z-20 right-0 absolute' ref = {bg2Ref} style = {{height: "100vh", width: "100vw", backgroundImage: 'url("images/Group bg 2.svg")', backgroundRepeat: "no-repeat", backgroundSize: "auto"}}></div> */}
       <img className = 'z-0 absolute' src = { ("images/kolase foto.svg") } alt = 'Kolase Foto Dokumentasi Porsenigama' />            
       <Section1 onClick = {onClick} />
