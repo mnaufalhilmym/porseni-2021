@@ -13,6 +13,11 @@ module.exports = {
         nuku: ['Nuku Nuku', 'sans-serif'],
         sansPro: ['Source Sans Pro', 'sans-serif'],
       },
+      fontSize: {
+        'oneten': ['108px', {
+          lineHeight: '124px',
+        }],
+      },
       colors: {
         'biru' : '#1E234C',
         'krem' : '#FBE5D2',

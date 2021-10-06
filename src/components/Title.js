@@ -1,14 +1,14 @@
 const Title = (props) => {
     return (
         <div className = 'z-30 w-5/12 h-full items-center mt-56 mr-20 relative' >
+            <div className = 'flex items-stretch justify-end content-end text-6xl font-sansPro'>
+                coming soon
+            </div>
             <div className = 'flex items-stretch justify-end content-end'>
-                <img src = { ("images/joined-title.svg") } alt="" />
+                Jejepangan
             </div>
-            <div>
-
-            </div>
-            <div>
-                
+            <div className = 'flex items-stretch justify-end content-end text-oneten font-nuku'>
+                PORSENIGAMA
             </div>
             <div className = 'h-3'></div>
             <div className = 'flex justify-end'>
