@@ -3,10 +3,11 @@ import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
 import Footer from "./components/Footer";
 
+
 function App() {
   const bg1Ref = useRef();
-  const bg2Ref = useRef();
   const gapuraRef = useRef();
+
 
   useEffect(() => {
     const onScroll = (event) => {
