@@ -4,6 +4,12 @@ const Title = (props) => {
             <div className = 'flex items-stretch justify-end content-end'>
                 <img src = { ("images/joined-title.svg") } alt="" />
             </div>
+            <div>
+
+            </div>
+            <div>
+                
+            </div>
             <div className = 'h-3'></div>
             <div className = 'flex justify-end'>
                 <img className = 'right-0 transform scale-90' src = { ("images/countdown.svg") } /> {/* placeholder for countdown */}
