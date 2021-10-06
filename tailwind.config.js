@@ -16,6 +16,7 @@ module.exports = {
       colors: {
         'biru' : '#1E234C',
         'krem' : '#FBE5D2',
+        'merah' : '#E62434',
       },
       zIndex: {
         '15': 15,
