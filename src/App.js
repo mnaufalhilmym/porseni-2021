@@ -11,7 +11,6 @@ function App() {
     const onScroll = (event) => {
       bg1Ref.current.style.width = window.innerWidth*(8/10) + window.pageYOffset + "px"
       gapuraRef.current.style.width = window.innerWidth*(4/10) + window.pageYOffset*(3/2) + "px"
-      bg2Ref.current.style.height = window.innerHeight + window.pageYOffset + "px"
     };
     
     window.addEventListener('scroll', onScroll);
