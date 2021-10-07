@@ -84,7 +84,6 @@ const Title = (props) => {
             </div>
             <div className = 'h-3'></div>
             <div className = 'flex justify-center md:justify-end'>
-                {/* <div className = 'w-8'></div> */}
                 <Countdown date="oct 30, 2021 18:29:59"/>
             </div>
             <div className = 'h-6 md:h-24 w-52'></div>
