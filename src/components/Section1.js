@@ -1,15 +1,19 @@
-import Title from './Title.js'
-import Side1 from './Side1.js'
+import Title from './Title/Title.js'
+import Side1 from './Title/Side1.js'
 
 const Section1 = (props) => {
 
 
     return (
         <div className = 'w-full'>
-            <dir className = 'mt-0 h-full flex content-end justify-end relative'>
+            <div className = 'mt-0 h-full flex flex-col md:flex-row md:content-end md:justify-end relative'>
                 <Title onClick = {props.onClick}/>
                 <Side1 />
-            </dir>
+            </div>
+            <div className = 'h-6'></div>
+            <div className = 'md:hidden flex relative justify-center'>
+                <img onClick = {props.onClick} className = 'z-20 cursor-pointer transform transition duration-300 active:scale-125' src = { ("images/Polygon 1.svg") } alt = "button to scroll" />
+            </div>
         </div>
     )
 }

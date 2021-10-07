@@ -13,9 +13,24 @@ module.exports = {
         nuku: ['Nuku Nuku', 'sans-serif'],
         sansPro: ['Source Sans Pro', 'sans-serif'],
       },
+      maxWidth: {
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
+        '4/5': '80%',
+      },
       fontSize: {
         'oneten': ['108px', {
-          lineHeight: '124px',
+          lineHeight: '108px',
+        }],
+        'threetwo': ['32px', {
+          lineHeight: '32px',
+        }],
+        'forty': ['40px', {
+          lineHeight: '40px',
+        }],
+        'sixty': ['60px', {
+          lineHeight: '60px',
         }],
       },
       colors: {
