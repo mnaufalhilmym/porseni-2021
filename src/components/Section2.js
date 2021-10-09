@@ -7,7 +7,7 @@ const Section2 = () => {
       className="relative z-30 pt-16 min-h-screen w-full rounded-full font-nuku text-4xl"
     >
       <img
-        className="absolute right-0 sm:right-20 bottom-20 xl:top-0"
+        className="absolute right-0 sm:right-20 bottom-20 xl:top-16"
         src="/images/jejepangan-vertikal.svg"
         alt="jejepangan vertikal"
       ></img>
