@@ -54,8 +54,7 @@ function App() {
         style={{
           height: "100vh",
           width: "40vw",
-          backgroundImage: 'url("images/gapura-sec1-2.svg")',
-          backgroundRepeat: "no-repeat",
+          background: 'url("images/gapura-sec1-2.svg") no-repeat',
         }}
       ></div>
       <div

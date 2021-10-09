@@ -6,7 +6,7 @@ const Section1 = (props) => {
 
     return (
         <div className = 'w-full'>
-            <div className = 'mt-0 h-full flex flex-col md:flex-row md:content-end md:justify-end relative'>
+            <div className = 'mt-0 min-h-screen flex flex-col md:flex-row md:content-end md:justify-end relative'>
                 <Title onClick = {props.onClick}/>
                 <Side1 />
             </div>

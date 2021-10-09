@@ -8,7 +8,7 @@ export default function TimelineLeft(props) {
           <p className="font-semibold text-xl mb-2 md:text-right">
             {props.date}
           </p>
-          <p className="leading-tight text-justify font-bold text-lg md:text-xl mb-1                       md:text-right ">
+          <p className="leading-tight text-justify font-bold text-lg md:text-xl mb-1 md:text-right ">
             {props.title}
           </p>
         </div>

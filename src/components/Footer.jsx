@@ -60,17 +60,17 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          <div className="w-80">
+          <div className="w-max whitespace-nowrap md:mx-4 lg:mx-14 mx-0">
             <p className="text-lg font-semibold">Diselenggarakan oleh:</p>
-            <div className="flex py-4 px-6">
+            <div className="flex mt-4 space-x-4">
               <img
-                className="md:w-28 md:h-28 w-20 h-20 rounded-full p-2 m-2"
-                src={`${process.env.PUBLIC_URL}/images/`}
+                className="md:w-32 md:h-32 w-20 h-20 object-contain"
+                src={`${process.env.PUBLIC_URL}/images/lambang-ugm-putih.png`}
                 alt="logo ugm"
               />
               <img
-                className="md:w-28 md:h-28 w-20 h-20 rounded-full p-2 m-2"
-                src={`${process.env.PUBLIC_URL}/images/`}
+                className="md:w-32 md:h-32 w-20 h-20 object-contain"
+                src={`${process.env.PUBLIC_URL}/images/logo-psg.png`}
                 alt="logo porsenigama"
               />
             </div>

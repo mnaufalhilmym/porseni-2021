@@ -3,7 +3,7 @@ import TimelineLeft from "./Timeline/TimelineBoxLeft";
 
 const Timeline = () => {
   return (
-    <div className="block z-40 text-7xl text-merah font-nuku justify-center w-full h-full mt-36">
+    <div className="block z-40 text-7xl text-merah font-nuku justify-center w-full">
       <h2
         className="text-center cursor-default"
         style={{

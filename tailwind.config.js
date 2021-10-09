@@ -29,6 +29,9 @@ module.exports = {
         'forty': ['40px', {
           lineHeight: '40px',
         }],
+        'fiftysix': ['56px', {
+          lineHeight: '56px',
+        }],
         'sixty': ['60px', {
           lineHeight: '60px',
         }],
