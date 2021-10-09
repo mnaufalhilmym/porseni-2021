@@ -12,10 +12,10 @@ export default function Footer() {
     <div className="relative text-white overflow-hidden z-20">
       <div className="md:flex justify-evenly bg-red-500 pt-6 pb-12 md:px-8 px-6">
         <div className="md:w-120 words-wrap border-4 border-white px-4 py-2 rounded-3xl mb-4">
-          <p className="text-lg uppercase font-semibold">
+          <p className="text-base md:text-lg uppercase font-semibold">
             FORUM KOMUNIKASI UNIT KEGIATAN MAHASISWA UNIVERSITAS GADJAH MADA
           </p>
-          <p className="text-lg">
+          <p className="text-base md:text-lg">
             Gelanggang Mahasiswa Universitas Gadjah Mada Jl. Pancasila No.1,
             Bulaksumur, Caturtunggal, Sleman, Daerah Istimewa Yogyakarta 55281
           </p>
