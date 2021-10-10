@@ -21,7 +21,7 @@ const Section2 = () => {
             backgroundSize: "contain",
             backgroundPosition: "center",
           }}
-          onClick={() => window.open("#", "_blank")}
+          onClick={() => window.open("https://drive.google.com/drive/u/1/folders/1kK_U8v-UfJaSa2SOw5X17JsAYHK4vpgl")}
         >
           DAFTAR
         </button>
@@ -33,7 +33,7 @@ const Section2 = () => {
             backgroundSize: "contain",
             backgroundPosition: "center",
           }}
-          onClick={() => window.open("#", "_blank")}
+          onClick={() => window.open("http://bit.ly/GuideBookPSG21")}
         >
           GUIDEBOOK
         </button>

@@ -25,35 +25,35 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-2 md:px-8 py-4">
               <a
                 className=" hover:text-yellow-500  rounded-xl w-12 h-12 text-4xl text-center pt-1"
-                href="/"
+                href="https://www.instagram.com/porsenigama/"
                 target="__blank"
               >
                 <FontAwesomeIcon icon={faInstagram} />{" "}
               </a>
               <a
                 className="hover:text-yellow-500 rounded-xl w-12 h-12 text-4xl text-center pt-1"
-                href="/"
+                href="https://www.youtube.com/c/PorsenigamaUGM"
                 target="__blank"
               >
                 <FontAwesomeIcon icon={faYoutube} />{" "}
               </a>
               <a
                 className="hover:text-yellow-500 rounded-xl w-12 h-12 text-4xl text-center pt-1"
-                href="/"
+                href="https://timeline.line.me/user/_dVUJknXsJqjR-lj7-sR0sE1LSqCmNrlKKyUu2ZM"
                 target="__blank"
               >
                 <FontAwesomeIcon icon={faLine} />{" "}
               </a>
               <a
                 className="hover:text-yellow-500 rounded-xl w-12 h-12 text-4xl text-center pt-1"
-                href="/"
+                href="https://twitter.com/porsenigama?t=Dk1V9UeAOqJ8wBW6CFcMkw&s=08"
                 target="__blank"
               >
                 <FontAwesomeIcon icon={faTwitter} />{" "}
               </a>
               <a
                 className="hover:text-yellow-500 rounded-xl w-12 h-12 text-4xl text-center pt-1"
-                href="/"
+                href="https://vt.tiktok.com/ZSe84m8Bc/"
                 target="__blank"
               >
                 <FontAwesomeIcon icon={faTiktok} />{" "}
