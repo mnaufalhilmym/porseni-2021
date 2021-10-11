@@ -8,7 +8,7 @@ const Section2 = () => {
     >
       <img
         className="absolute right-0 transform scale-75 md:scale-100 sm:right-20 bottom-20 xl:top-16"
-        src="/images/jejepangan-vertikal.svg"
+        src={`${process.env.PUBLIC_URL}/images/jejepangan-vertikal.svg`}
         alt="jejepangan vertikal"
       ></img>
       <Timeline />
@@ -16,7 +16,7 @@ const Section2 = () => {
         <button
           className="z-10 w-56 h-24 sm:w-96 sm:h-32 my-3 sm:my-8 mx-10 sm:text-5xl uppercase transform transition duration-300 hover:scale-110"
           style={{
-            backgroundImage: "url('/images/button.svg')",
+            backgroundImage: `url(${process.env.PUBLIC_URL}/images/button.svg)`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "contain",
             backgroundPosition: "center",
@@ -28,7 +28,7 @@ const Section2 = () => {
         <button
           className="z-10 w-56 h-24 sm:w-96 sm:h-32 my-3 sm:my-8 mx-10 sm:text-5xl uppercase transform transition duration-300 hover:scale-110"
           style={{
-            backgroundImage: "url('/images/button.svg')",
+            backgroundImage: `url(${process.env.PUBLIC_URL}/images/button.svg)`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "contain",
             backgroundPosition: "center",
@@ -40,7 +40,7 @@ const Section2 = () => {
       </div>
       <img
         className="relative xl:ml-auto -mt-80 w-96 xl:w-max"
-        src="/images/figur-cs.svg"
+        src={`${process.env.PUBLIC_URL}/images/figur-cs.svg`}
         alt="figur"
       ></img>
     </div>

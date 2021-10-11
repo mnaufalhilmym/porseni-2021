@@ -89,7 +89,7 @@ const Title = (props) => {
             <div className = 'h-6 md:h-24 w-52'></div>
             <div className = 'hidden md:flex relative justify-center'>
                 <div className = 'w-1/3'></div>
-                <img onClick = {props.onClick} className = 'z-20 cursor-pointer transform transition duration-300 hover:scale-125' src = { ("images/Polygon 1.svg") } alt = "button to scroll" />
+                <img onClick = {props.onClick} className = 'z-20 cursor-pointer transform transition duration-300 hover:scale-125' src = {`${process.env.PUBLIC_URL}/images/Polygon 1.svg`} alt = "button to scroll" />
             </div>
         </div>            
     )

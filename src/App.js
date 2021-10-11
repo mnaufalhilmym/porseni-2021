@@ -43,7 +43,7 @@ function App() {
         style={{
           height: "100vh",
           width: "80vw",
-          backgroundImage: 'url("images/Group bg 1.svg")',
+          backgroundImage: `url('${process.env.PUBLIC_URL}/images/Group bg 1.svg')`,
           backgroundRepeat: "no-repeat",
           backgroundSize: "auto",
         }}
@@ -54,7 +54,7 @@ function App() {
         style={{
           height: "100vh",
           width: "40vw",
-          background: 'url("images/gapura-sec1-2.svg") no-repeat',
+          background: `url('${process.env.PUBLIC_URL}/images/gapura-sec1-2.svg') no-repeat`,
         }}
       ></div>
       <div
@@ -63,14 +63,14 @@ function App() {
         style={{
           height: "100vh",
           width: "40vw",
-          backgroundImage: 'url("images/gapura-sec1-2.svg")',
+          backgroundImage: `url(${process.env.PUBLIC_URL}/images/gapura-sec1-2.svg)`,
           backgroundRepeat: "no-repeat",
           backgroundSize: '700px',
         }}
       ></div>
       <img
         className="z-0 absolute"
-        src={"images/kolase foto.svg"}
+        src={`${process.env.PUBLIC_URL}/images/kolase foto.svg`}
         alt="Kolase Foto Dokumentasi Porsenigama"
       />
       <Section1 onClick={onClick} />

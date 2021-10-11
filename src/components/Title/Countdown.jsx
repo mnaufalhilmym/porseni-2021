@@ -56,10 +56,10 @@ export default function Countdown (props) {
             </div> */}
             <div className='grid grid-cols-5 justify-items-end z-30 font-nuku w-2/3 cursor-default'>
                 <div className = 'mt-1'>
-                    <img src="./images/Logo.svg" alt="Logo Porsenigama" style = {{ 'maxWidth': '100%', 'height': 'auto' }} />
+                    <img src={`${process.env.PUBLIC_URL}/images/Logo.svg`} alt="Logo Porsenigama" style = {{ 'maxWidth': '100%', 'height': 'auto' }} />
                 </div>
                 <div className="justify-center my-auto relative w-full h-full flex flex-wrap content-center">
-                    <img className = 'z-0 absolute mt-1 md:mt-1.5' src="./images/circle.svg" alt="" />
+                    <img className = 'z-0 absolute mt-1 md:mt-1.5' src={`${process.env.PUBLIC_URL}/images/circle.svg`} alt="" />
                     <div className="flex mb-1">                    
                         <CountdownBox
                             isDark={props.isDark}
@@ -72,7 +72,7 @@ export default function Countdown (props) {
                     </div>
                 </div>
                 <div className="justify-center my-auto relative w-full h-full flex flex-wrap content-center">
-                    <img className = 'z-0 absolute mt-1 md:mt-1.5' src="./images/circle.svg" alt="" />
+                    <img className = 'z-0 absolute mt-1 md:mt-1.5' src={`${process.env.PUBLIC_URL}/images/circle.svg`} alt="" />
                     <div className="flex mb-1">
                         <CountdownBox
                             isDark={props.isDark}
@@ -85,7 +85,7 @@ export default function Countdown (props) {
                     </div>
                 </div>
                 <div className="justify-center my-auto relative w-full h-full flex flex-wrap content-center">
-                    <img className = 'z-0 absolute mt-1 md:mt-1.5' src="./images/circle.svg" alt="" />
+                    <img className = 'z-0 absolute mt-1 md:mt-1.5' src={`${process.env.PUBLIC_URL}/images/circle.svg`} alt="" />
                     <div className="flex mb-1">
                         <CountdownBox
                             isDark={props.isDark}
@@ -98,7 +98,7 @@ export default function Countdown (props) {
                     </div>
                 </div>
                 <div className="justify-center my-auto relative w-full h-full flex flex-wrap content-center">
-                    <img className = 'z-0 absolute mt-1 md:mt-1.5' src="./images/circle.svg" alt="" />
+                    <img className = 'z-0 absolute mt-1 md:mt-1.5' src={`${process.env.PUBLIC_URL}/images/circle.svg`} alt="" />
                     <div className="flex mb-1">
                         <CountdownBox
                             isDark={props.isDark}
