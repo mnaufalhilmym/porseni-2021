@@ -13,7 +13,7 @@ const Section1 = (props) => {
         <img
           onClick={props.onClick}
           className="z-20 cursor-pointer transform transition duration-300 active:scale-125"
-          src={`${process.env.PUBLIC_URL}images/Polygon 1.svg`}
+          src={`${process.env.PUBLIC_URL}/images/Polygon 1.svg`}
           alt="button to scroll"
         />
       </div>
