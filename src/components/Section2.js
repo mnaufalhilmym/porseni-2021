@@ -12,9 +12,34 @@ const Section2 = () => {
         alt="jejepangan vertikal"
       ></img>
       <Timeline />
+      <div className="block z-40 text-fiftysix md:text-sixtyeit text-merah font-nuku justify-center w-full">
+        <h2
+          className="relative z-40 text-center cursor-default"
+          style={{
+            "-webkit-text-stroke": "1px #FBE5D2",
+            "text-shadow": [
+              "6px 6px 0 #FBE5D2",
+              "6px 2px 0 #FBE5D2",
+              "6px 3px 0 #FBE5D2",
+              "6px 4px 0 #FBE5D2",
+              "6px 5px 0 #FBE5D2",
+              "-1px 6px 0 #FBE5D2",
+              "0px 6px 0 #FBE5D2",
+              "1px 6px 0 #FBE5D2",
+              "2px 6px 0 #FBE5D2",
+              "3px 6px 0 #FBE5D2",
+              "4px 6px 0 #FBE5D2",
+              "5px 6px 0 #FBE5D2",
+            ],
+          }}
+        >
+          PENGUMPULAN KARYA
+        </h2>
+        <div className = 'h-10 w-full'></div>
+      </div>
       <div className="mx-auto flex flex-col lg:flex-row justify-center items-center">
         <button
-          className="z-10 w-56 h-24 sm:w-96 sm:h-32 my-3 sm:my-8 mx-10 sm:text-5xl uppercase transform transition duration-300 hover:scale-110"
+          className="z-10 w-56 h-24 text-3xl sm:w-72 sm:h-32 my-3 sm:my-8 mx-10 sm:text-forty uppercase transform transition duration-300 hover:scale-110"
           style={{
             backgroundImage: `url(${process.env.PUBLIC_URL}/images/button.svg)`,
             backgroundRepeat: "no-repeat",
@@ -23,10 +48,11 @@ const Section2 = () => {
           }}
           onClick={() => window.open("https://drive.google.com/drive/u/1/folders/1kK_U8v-UfJaSa2SOw5X17JsAYHK4vpgl")}
         >
-          DAFTAR
+          CABANG <br></br> OLAHRAGA
+          <div className = 'h-2'></div>
         </button>
         <button
-          className="z-10 w-56 h-24 sm:w-96 sm:h-32 my-3 sm:my-8 mx-10 sm:text-5xl uppercase transform transition duration-300 hover:scale-110"
+          className="z-10 w-56 h-24 text-3xl sm:w-72 sm:h-32 my-3 sm:my-8 mx-10 sm:text-forty uppercase transform transition duration-300 hover:scale-110"
           style={{
             backgroundImage: `url(${process.env.PUBLIC_URL}/images/button.svg)`,
             backgroundRepeat: "no-repeat",
@@ -35,11 +61,12 @@ const Section2 = () => {
           }}
           onClick={() => window.open("http://bit.ly/GuideBookPSG21")}
         >
-          GUIDEBOOK
+          CABANG <br></br> SENI
+          <div className = 'h-1'></div>
         </button>
       </div>
       <img
-        className="relative xl:ml-auto -mt-80 w-96 xl:w-max"
+        className="relative z-0 xl:ml-auto -mt-80 w-96 xl:w-max"
         src={`${process.env.PUBLIC_URL}/images/figur-cs.svg`}
         alt="figur"
       ></img>

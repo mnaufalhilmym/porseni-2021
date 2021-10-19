@@ -32,8 +32,8 @@ module.exports = {
         'fiftysix': ['56px', {
           lineHeight: '56px',
         }],
-        'sixty': ['60px', {
-          lineHeight: '60px',
+        'sixtyeit': ['68px', {
+          lineHeight: '68px',
         }],
       },
       colors: {
