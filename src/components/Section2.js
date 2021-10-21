@@ -35,7 +35,7 @@ const Section2 = () => {
         >
           PENGUMPULAN KARYA
         </h2>
-        <div className = 'h-10 w-full'></div>
+        <div className="h-10 w-full"></div>
       </div>
       <div className="mx-auto flex flex-col lg:flex-row justify-center items-center">
         <button
@@ -46,10 +46,14 @@ const Section2 = () => {
             backgroundSize: "contain",
             backgroundPosition: "center",
           }}
-          onClick={() => window.open("https://drive.google.com/drive/u/1/folders/1kK_U8v-UfJaSa2SOw5X17JsAYHK4vpgl")}
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/drive/folders/1_ljN1RuxX7jDI8GxS_wkYJPlTQWpJHJu?usp=sharing"
+            )
+          }
         >
           CABANG <br></br> OLAHRAGA
-          <div className = 'h-2'></div>
+          <div className="h-2"></div>
         </button>
         <button
           className="z-10 w-56 h-24 text-3xl sm:w-72 sm:h-32 my-3 sm:my-8 mx-10 sm:text-forty uppercase transform transition duration-300 hover:scale-110"
@@ -59,10 +63,14 @@ const Section2 = () => {
             backgroundSize: "contain",
             backgroundPosition: "center",
           }}
-          onClick={() => window.open("http://bit.ly/GuideBookPSG21")}
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/drive/folders/1KnE-BgbKC6WHKF73ktBtGmeUTm46dXB1?usp=sharing"
+            )
+          }
         >
           CABANG <br></br> SENI
-          <div className = 'h-1'></div>
+          <div className="h-1"></div>
         </button>
       </div>
       <img
